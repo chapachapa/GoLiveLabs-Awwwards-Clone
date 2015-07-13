@@ -1,0 +1,58 @@
+div.item{
+    margin-top: 2em;
+    width: 50%;
+    padding-right:1em;
+}
+
+#block1,#block2{
+    display: flex;
+    width: 100%;
+    margin-top: 5em;
+}
+
+#lastNominees{
+    width: 66%;
+}
+
+#devAward{
+    width: 33%;
+}
+
+.title{
+    font-size: 1.1em;
+}
+
+.itemAuth {
+    border-bottom: 1px solid #d2d6d5;
+    font-size:1.1em;
+}
+
+.itemScore{
+    margin-top: 0.75em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #b4bab9;
+}
+
+.itemScoreUnit>h1{
+    margin: 0;
+}
+.itemScoreUnit>p{
+    font-size: 0.8em;
+    margin-top: -0.7em;
+}
+
+.itemVoteButton{
+    color: white;
+    font-weight: bold;
+    padding: 1em 1.75em;
+    background-color: #3c948b;
+    border-radius: 0.3em;
+    transition: background-color 300ms ease;
+}
+
+.itemVoteButton:hover{
+    cursor: pointer;
+    background-color: #66a8a1;
+}
