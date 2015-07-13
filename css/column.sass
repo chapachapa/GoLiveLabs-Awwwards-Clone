@@ -1,0 +1,18 @@
+/* I'm using "co-" in the front instead of "col-"
+ * This is to make sure I am using my method and not the ones from bootstrap
+ */
+
+@media screen and (min-device-width: 800px)
+  @for $i from 1 through 12
+    .co-lg-#{$i}
+      width: 100% * ($i / 12)
+
+@media screen and (min-device-width: 400px) and (max-device-width: 800px)
+  @for $i from 1 through 12
+    .co-md-#{$i}
+      width: 100% * ($i / 12)
+
+@media screen and (max-device-width: 400px)
+  @for $i from 1 through 12
+    .co-xs-#{$i}
+      width: 100% * ($i / 12)

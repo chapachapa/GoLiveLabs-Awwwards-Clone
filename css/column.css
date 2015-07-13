@@ -1,0 +1,113 @@
+/* I'm using "co-" in the front instead of "col-"
+ * This is to make sure I am using my method and not the ones from bootstrap
+ */
+@media screen and (min-device-width: 800px) {
+  .co-lg-1 {
+    width: 8.33333%; }
+
+  .co-lg-2 {
+    width: 16.66667%; }
+
+  .co-lg-3 {
+    width: 25%; }
+
+  .co-lg-4 {
+    width: 33.33333%; }
+
+  .co-lg-5 {
+    width: 41.66667%; }
+
+  .co-lg-6 {
+    width: 50%; }
+
+  .co-lg-7 {
+    width: 58.33333%; }
+
+  .co-lg-8 {
+    width: 66.66667%; }
+
+  .co-lg-9 {
+    width: 75%; }
+
+  .co-lg-10 {
+    width: 83.33333%; }
+
+  .co-lg-11 {
+    width: 91.66667%; }
+
+  .co-lg-12 {
+    width: 100%; } }
+@media screen and (min-device-width: 400px) and (max-device-width: 800px) {
+  .co-md-1 {
+    width: 8.33333%; }
+
+  .co-md-2 {
+    width: 16.66667%; }
+
+  .co-md-3 {
+    width: 25%; }
+
+  .co-md-4 {
+    width: 33.33333%; }
+
+  .co-md-5 {
+    width: 41.66667%; }
+
+  .co-md-6 {
+    width: 50%; }
+
+  .co-md-7 {
+    width: 58.33333%; }
+
+  .co-md-8 {
+    width: 66.66667%; }
+
+  .co-md-9 {
+    width: 75%; }
+
+  .co-md-10 {
+    width: 83.33333%; }
+
+  .co-md-11 {
+    width: 91.66667%; }
+
+  .co-md-12 {
+    width: 100%; } }
+@media screen and (max-device-width: 400px) {
+  .co-xs-1 {
+    width: 8.33333%; }
+
+  .co-xs-2 {
+    width: 16.66667%; }
+
+  .co-xs-3 {
+    width: 25%; }
+
+  .co-xs-4 {
+    width: 33.33333%; }
+
+  .co-xs-5 {
+    width: 41.66667%; }
+
+  .co-xs-6 {
+    width: 50%; }
+
+  .co-xs-7 {
+    width: 58.33333%; }
+
+  .co-xs-8 {
+    width: 66.66667%; }
+
+  .co-xs-9 {
+    width: 75%; }
+
+  .co-xs-10 {
+    width: 83.33333%; }
+
+  .co-xs-11 {
+    width: 91.66667%; }
+
+  .co-xs-12 {
+    width: 100%; } }
+
+/*# sourceMappingURL=column.css.map */

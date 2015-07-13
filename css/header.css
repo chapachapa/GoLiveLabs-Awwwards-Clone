@@ -1,0 +1,124 @@
+p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+/* TOP HEADER */
+
+div.topHeader p {
+    font-size: 15px;
+    margin-left: 1.25em;
+}
+
+div.topHeader>div{
+    display: flex;
+    float: right;
+    right: 2em;
+}
+
+header>div{
+    border-bottom: 1px solid #d2d6d5;
+}
+
+div.topHeader{
+    color: #a6abab;
+    background-color: #f4f4f4;
+    height: 3.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p.hLogin{
+    color: #313131;
+    margin-right: 1.25em;
+}
+
+p.hLogin>a{
+    text-decoration: underline;
+    color: #313131;
+}
+
+p.hLogin>a:hover{
+    text-decoration: none;
+    color: #313131;
+}
+
+/* BOTTOM HEADER + NAVIGATION BAR*/
+
+div.bottomHeader{
+    background-color: #e1e3e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#topNav {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+#topNav>li{
+    font-size: 14px;
+    padding: 1.70em 1em;
+    font-family: sans-serif;
+    margin: 0;
+    align-items: center;
+    transition: background-color 500ms ease;
+    cursor: pointer;
+    border-right: 1px solid #d2d6d5;
+}
+
+#topNav>li:hover{
+    background-color: #f4f4f4;
+}
+
+div.bottomHeader>a:first-child{
+    display: inline-block;
+    margin-left: 1.25em;
+}
+
+div.bottomHeader img{
+    width: 188px;
+    height: 22px;
+}
+
+#topNav>li:first-child {
+    font-weight: bold;
+}
+
+#topNav>li:nth-last-child(2){
+    color: white;
+    background-color: #3c948b;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-weight: bold;
+    border: 0;
+}
+
+#topNav>li:nth-last-child(2):hover{
+    background-color: #66a8a1;
+}
+
+#topNav>li>span {
+    font-size: 1.15em;
+}
+
+#topNav>li:last-child{
+    color: white;
+    background-color: #343434;
+    transition: background-color 500ms ease;
+    padding-left: 1.6em;
+    padding-right:1.6em;
+    border: 0;
+}
+
+#topNav>li:last-child:hover{
+    background-color: #606060;
+}
