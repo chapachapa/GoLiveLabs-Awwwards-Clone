@@ -1,21 +1,42 @@
 div.item{
     margin-top: 2em;
+    margin-right:1.65em;
+}
+
+div.itemGroup{
+    display:flex;
+}
+
+div.itemGroup>div{
     width: 50%;
-    padding-right:1em;
+}
+
+div.item>div{
+    margin-bottom: 1.1em;
 }
 
 #block1,#block2{
     display: flex;
     width: 100%;
-    margin-top: 5em;
+    margin-top: 3.4em;
+    padding-bottom: 5em;
+    border-bottom: 1px solid #d2d6d5;
 }
 
 #lastNominees{
-    width: 66%;
+    width: calc(66% + (2 * 1.65em));
 }
 
 #devAward{
     width: 33%;
+}
+
+#devAward>div.item{
+    margin-right:0;
+}
+
+.authAndHeart>h3{
+    margin: 0;
 }
 
 .title{
@@ -23,12 +44,14 @@ div.item{
 }
 
 .itemAuth {
-    border-bottom: 1px solid #d2d6d5;
+    /* border-bottom: 1px solid #d2d6d5; */
     font-size:1.1em;
+    padding-bottom: 1em;
 }
 
 .itemScore{
-    margin-top: 0.75em;
+    padding-top: 0.5em;
+    border-top: 1px solid #d2d6d5;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,13 +69,45 @@ div.item{
 .itemVoteButton{
     color: white;
     font-weight: bold;
-    padding: 1em 1.75em;
+    padding: 0.85em 1.50em;
     background-color: #3c948b;
-    border-radius: 0.3em;
+    border-radius: 0.2em;
     transition: background-color 300ms ease;
 }
 
 .itemVoteButton:hover{
     cursor: pointer;
     background-color: #66a8a1;
+}
+
+.devTheme{
+    margin-top: -1.3em;
+}
+
+.devThemeList{
+    padding: 0;
+    margin:0;
+    display: flex;
+    list-style-type: none;
+}
+
+.devThemeList>li{
+    margin: 0 0.50em 0.50em 0em;
+    padding: 0.25em 0.45em;
+    background-color: #d4d5d6;
+    color: #313131;
+    font-size: 0.9em;
+    border-radius: 0.2em;
+}
+
+#trendingSites>div.itemGroup>div.item:last-child{
+    margin-right: 0;
+}
+
+#block2 div.itemAuth{
+    padding-bottom: 0;
+}
+
+.itemDate>p{
+    font-size: 1.05em;
 }

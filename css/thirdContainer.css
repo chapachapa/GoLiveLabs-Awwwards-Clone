@@ -1,0 +1,29 @@
+#block3{
+    width: 100%;
+    margin-top: 3.4em;
+    padding-bottom: 5em;
+    /*border-bottom: 1px solid #d2d6d5;*/
+}
+
+#block3>div.title{
+    margin-bottom: 1em;
+}
+
+#blog{
+    display: flex;
+}
+
+#blog>div:first-child{
+    margin-left: 0;
+}
+
+.blogItem{
+    padding: 1em;
+    margin-left: 25px;
+    border: 1px solid #d2d6d5;
+}
+
+.blogItem h3{
+    font-size: 1.2em;
+    font-weight: bold;
+}
