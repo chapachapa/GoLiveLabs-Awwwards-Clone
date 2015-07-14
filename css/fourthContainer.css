@@ -1,0 +1,167 @@
+#block5{
+    width: 100%;
+    margin-top: 3.4em;
+    display: flex;
+}
+
+#block5 a{
+    color: #3c948b;
+}
+
+#block5 a:hover{
+    color: #313131;
+    text-decoration: none;
+}
+
+.jobImage{
+    margin: 2em;
+    margin-left: 0;
+}
+
+.jobImage>img{
+    width: 50px;
+    height: 50px;
+}
+
+#jobTypes>ul{
+    list-style-type: none;
+    display: flex;
+}
+#jobTypes>ul>li{
+    margin-left: 1.2em;
+    border-right: 1px solid #d2d6d5;
+    padding-right: 1.2em;
+}
+
+#jobTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+}
+
+#jobs{
+    width: 100%;
+}
+
+.jobItem{
+    display: flex;
+    border-top: 1px solid #d2d6d5;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.jobContent{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding: 2em;
+    padding-right:0;
+}
+
+.jobContent>div{
+    align-items: center;
+}
+
+.jobContent h3{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.jobDate>p{
+    text-align: right;
+}
+
+.jobDate>p:first-child{
+    color: #df6c4f;
+}
+
+.jobInfo>h3>a{
+    color: #313131 !important;
+}
+
+.jobInfo>h3>a:hover{
+    color: #313131;
+}
+
+/* ===============================*/
+
+#social {
+    height: 100px;
+    width: 100%;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#social>span{
+    font-size: 2em;
+    margin: 0.15em;
+}
+
+#social>span#socialHeart{
+    color: #3c948b;
+    font-size: 2.5em;
+}
+
+/* ===== */
+
+#block7 {
+    color: #444;
+    background-color: #202121;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#block7 a{
+    color: #3c948b;
+}
+
+#block7 a:hover{
+    color: #888;
+    text-decoration: none;
+}
+
+#extra{
+    display: flex;
+    margin-top: 70px;
+}
+
+.extraItem{
+    width:217px;
+    padding: 1.2em;
+    margin: 1em;
+    border: 1px solid #444;
+}
+
+.extraItem h1{
+    font-size: 1.3em;
+    color: #555;
+}
+
+#extra>div:last-child{
+    border: 1px solid #3c948b;
+}
+
+#extraExtra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#extraDiv{
+    margin-top: 40px;
+    height: 5px;
+    background-color: #3c948b;
+    width: 150px;
+}
+
+#extraText{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}

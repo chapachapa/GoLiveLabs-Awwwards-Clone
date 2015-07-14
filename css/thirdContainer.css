@@ -1,3 +1,37 @@
+#block3 a{
+    color: #3c948b;
+}
+
+#block3 a:hover{
+    color: #313131;
+    text-decoration: none;
+}
+
+#block3 a.blogLink{
+    color: #313131;
+}
+#block3 a.blogLink:hover{
+    color: #64686a;
+    text-decoration: none;
+}
+
+#block4 a{
+    color: #3c948b;
+}
+
+#block4 a:hover{
+    color: #313131;
+    text-decoration: none;
+}
+
+#block4 h3>a{
+    color: #313131;
+}
+#block4 h3>a:hover{
+    color: #64686a;
+    text-decoration: none;
+}
+
 #block3{
     width: 100%;
     margin-top: 3.4em;
@@ -21,9 +55,87 @@
     padding: 1em;
     margin-left: 25px;
     border: 1px solid #d2d6d5;
+    width: 25%;
 }
 
 .blogItem h3{
     font-size: 1.2em;
     font-weight: bold;
+}
+
+.blogItem p{
+    font-size: 1.15em;
+    line-height: 1.65em;
+}
+
+.blogSum{
+    margin-top: 0.75em;
+}
+
+
+/* Directory */
+
+div#directory{
+    width: 66%;
+}
+
+#dirContainer{
+    display: flex;
+}
+
+.dirItem{
+    width: 25%;
+    padding: 1em;
+    margin-left: 25px;
+    border: 1px solid #d2d6d5;
+}
+
+#dirContainer>div:first-child{
+    margin-left: 0;
+}
+
+div#events{
+    width: 33%;
+}
+
+#block4{
+    width: 100%;
+    margin-top: 3.4em;
+    padding-bottom: 5em;
+    display: flex;
+}
+
+.eventContainer {
+    display: flex;
+}
+
+.eventItem{
+    width: 50%;
+    padding: 1em;
+    margin-left: 25px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#events>div.title{
+    margin-left: 25px;
+}
+
+.eventContent{
+    line-height: 1.7em;
+}
+
+.eventContent>h3{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.eventDate {
+    color: #3c948b;
+}
+
+.eventTwitter{
+    margin-top: 1.5em;
 }

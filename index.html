@@ -9,7 +9,9 @@
     <link rel="stylesheet" type="text/css" href="css/mainContainer.css" />
     <link rel="stylesheet" type="text/css" href="css/secondContainer.css" />
     <link rel="stylesheet" type="text/css" href="css/thirdContainer.css" />
-    <script src="//use.typekit.net/jwx0fya.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/fourthContainer.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    <script src="js/header.js"></script>
     <script>try{Typekit.load();}catch(e){} //Museo Sans Thin (Adobe) </script>
     <style>
         body {
@@ -21,9 +23,15 @@
         a{
             transition: all 300ms ease;
         }
+
+        #marker{
+            position: absolute;
+            top:0;
+        }
     </style>
 </head>
 <body>
+    <div id="marker"></div>
     <header>
         <div class="topHeader">
             <p>The awards for design, creativity and innovation on the Internet</p>
@@ -220,7 +228,7 @@
                             <p>By <a href="#">baqemono.inc</a> from <strong>Japan</strong> with <strong>6.97</strong></p>
                         </div>
                         <div class="itemDate">
-                            <p>April 15, 2015 in <a href="">SOTD</a></p>
+                            <p>April 15, 2015 in <a href="#">SOTD</a></p>
                         </div>
                     </div>
                     <div class="item">
@@ -250,36 +258,278 @@
                     <div class="blogImage">
                         <img src="images/blog1.jpg">
                     </div>
-                    <h3>Awwwards Conference 2016</h3>
-                    <p class="blogCat"></p>
+                    <h3><a href="#" class="blogLink">Awwwards Conference 2016</a></h3>
+                    <p class="blogCat"><a href="#">Amsterdam & New York City</a></p>
                     <p class="blogSum">Tickets available now for Awwwards Conference Amsterdam 2016</p>
                 </div>
                 <div class="blogItem">
                     <div class="blogImage">
                         <img src="images/blog2.jpg">
                     </div>
-                    <h3>Meet Cartelle</h3>
-                    <p class="blogCat"><a href="">Interviews</a></p>
+                    <h3><a href="#" class="blogLink">Meet Cartelle</a></h3>
+                    <p class="blogCat"><a href="#">Interviews</a></p>
                     <p class="blogSum">Tickets available now for Awwwards Conference Amsterdam 2016</p>
                 </div>
                 <div class="blogItem">
                     <div class="blogImage">
                         <img src="images/blog3.jpg">
                     </div>
-                    <h3>20 Unique and Creative Web Portfolios</h3>
-                    <p class="blogCat"><a href="">The Best Articles</a> / <a href="">Web Design</a></p>
+                    <h3><a href="#" class="blogLink">20 Unique and Creative Web Portfolios</a></h3>
+                    <p class="blogCat"><a href="#">The Best Articles</a> / <a href="#">Web Design</a></p>
                     <p class="blogSum">Tickets available now for Awwwards Conference Amsterdam 2016</p>
                 </div>
                 <div class="blogItem">
                     <div class="blogImage">
                         <img src="images/blog4.jpg">
                     </div>
-                    <h3>Interview with Claudio Guglieri - Independent Product Designer & Creative Director</h3>
-                    <p class="blogCat"><a href="">Interviews</a></p>
+                    <h3><a href="#" class="blogLink">Interview with Claudio Guglieri - Independent Product Designer & Creative Director</a></h3>
+                    <p class="blogCat"><a href="#">Interviews</a></p>
                     <p class="blogSum">Claudio Guglieri is an independent product designer and creative director living...</p>
                 </div>
             </div>
         </div>
+        <div id="block4">
+            <div id="directory">
+                <div class="title">
+                    <p><strong>DIRECTORY</strong> <a href="#" id="titleLink">Find the best design firms</a></p>
+                </div>
+                <div id="dirContainer">
+                    <div class="dirItem">
+                        <div class="dirImage">
+                            <img src="images/dir1.jpeg">
+                        </div>
+                        <h3><a href="#">AQuest</a></h3>
+                        <p><a href="#">aquest.it</a></p>
+                        <p><strong>Italy</strong><br>Verona</p>
+                    </div>
+                    <div class="dirItem">
+                        <div class="dirImage">
+                            <img src="images/dir2.jpeg">
+                        </div>
+                        <h3><a href="#">Bolds Creative</a></h3>
+                        <p><a href="#">boldscreative.com</a></p>
+                        <p><strong>U.S.A.</strong><br>New York</p>
+                    </div>
+                    <div class="dirItem">
+                        <div class="dirImage">
+                            <img src="images/dir3.png">
+                        </div>
+                        <h3><a href="#">pixelpalace</a></h3>
+                        <p><a href="#">pixelpalace.com.au</a></p>
+                        <p><strong>Australia</strong><br>Kelvin Grove</p>
+                    </div>
+                    <div class="dirItem">
+                        <div class="dirImage">
+                            <img src="images/dir4.jpeg">
+                        </div>
+                        <h3><a href="#">Thirty Dirty</a></h3>
+                        <p><a href="#">thirtydirtyfingers.com</a></p>
+                        <p><strong>France</strong><br>Paris</p>
+                    </div>
+                </div>
+            </div>
+            <div id="events">
+                <div class="title">
+                    <p><strong>EVENTS</strong> <a href="#" id="titleLink">View all events</a></p>
+                </div>
+                <div class="eventContainer">
+                    <div class="eventItem">
+                        <div class="eventContent">
+                            <h3><a href="#">Generate London</a></h3>
+                            <p class="eventDate">September 17, 2015</p>
+                            <p>
+                                <strong>London</strong><br>
+                                After two amazing events in London in 2013 and 2014, Generate is back at the Grand...
+                            </p>
+                        </div>
+                        <div class="eventTwitter">
+                            <p><a href="#"><span class="glyphicon glyphicon-globe"></span> @netmag</a></p>
+                        </div>
+                    </div>
+                    <div class="eventItem">
+                        <div class="eventContent">
+                            <h3><a href="#">Future of Web Design San Francisco</a></h3>
+                            <p class="eventDate">October 28, 2015</p>
+                            <p>
+                                <strong>San Francisco, CA</strong><br>
+                                They proudly bring you the 1st ever Future of Web Design, San Francisco - the event...
+                            </p>
+                        </div>
+                        <div class="eventTwitter">
+                            <p><a href="#"><span class="glyphicon glyphicon-globe"></span> @FOWD</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
+    <div class="bottomContainer">
+        <div id="block5">
+            <div id="jobs">
+                <div id="jobTitle">
+                    <div class="title">
+                        <p><strong>JOBS</strong> For web professionals</p>
+                    </div>
+                    <div id="jobTypes">
+                        <ul>
+                            <li>Design (<a href="#">128</a>)</li>
+                            <li>Programming (<a href="#">98</a>)</li>
+                            <li>Other (<a href="#">11</a>)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="jobContainer">
+                    <div class="jobItem">
+                        <div class="jobImage">
+                            <img src="images/job1.jpeg" />
+                        </div>
+                        <div class="jobContent">
+                            <div class="jobInfo">
+                                <h3><a href="#">Art Director</a></h3>
+                                <p><a href="#">Tribal DDB Canada</a> Canada - Vancouver</p>
+                            </div>
+                            <div class="jobDate">
+                                <p>3 Days Ago</p><br>
+                                <p>10 Jul &nbsp&nbsp&nbsp<span style="color:#3c948b;">Full-time</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jobItem">
+                        <div class="jobImage">
+                            <img src="images/job2.png" />
+                        </div>
+                        <div class="jobContent">
+                            <div class="jobInfo">
+                                <h3><a href="#">Adveris, jeune agence interactive de l'année 2014 recrute un Intégrateur/Dev Front</a></h3>
+                                <p><a href="#">Adveris</a> France - Paris</p>
+                            </div>
+                            <div class="jobDate">
+                                <p>5 Days Ago</p><br>
+                                <p>08 Jul &nbsp&nbsp&nbsp<span style="color:#3c948b;">Full-time</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jobItem">
+                        <div class="jobImage">
+                            <img src="images/job3.jpeg" />
+                        </div>
+                        <div class="jobContent">
+                            <div class="jobInfo">
+                                <h3><a href="#">Full Stack(ish) Developer</a></h3>
+                                <p><a href="#">Super Top Secret</a> U.S.A. - Salt Lake City</p>
+                            </div>
+                            <div class="jobDate">
+                                <p>6 Days Ago</p><br>
+                                <p>07 Jul &nbsp&nbsp&nbsp<span style="color:#3c948b;">Full-time</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jobItem">
+                        <div class="jobImage">
+                            <img src="images/job4.png" />
+                        </div>
+                        <div class="jobContent">
+                            <div class="jobInfo">
+                                <h3><a href="#">Designer</a></h3>
+                                <p><a href="#">Wistia</a> U.S.A. - Cambridge</p>
+                            </div>
+                            <div class="jobDate">
+                                <p>7 Days Ago</p><br>
+                                <p>06 Jul &nbsp&nbsp&nbsp<span style="color:#3c948b;">Full-time</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jobItem">
+                        <div class="jobImage">
+                            <img src="images/job5.jpeg" />
+                        </div>
+                        <div class="jobContent">
+                            <div class="jobInfo">
+                                <h3><a href="#">Junior Interactive Designer</a></h3>
+                                <p><a href="#">Bossa NYC</a> U.S.A. - New York</p>
+                            </div>
+                            <div class="jobDate">
+                                <p>7 Days Ago</p><br>
+                                <p>06 Jul &nbsp&nbsp&nbsp<span style="color:#3c948b;">Full-time</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="block6">
+            <div id="social">
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span id="socialHeart" class="glyphicon glyphicon-heart"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+            </div>
+        </div>
+        <div id="block7">
+            <div id="extra">
+                <div class="extraItem">
+                    <div class="extraImg">
+                        <img src="images/bottom1.png" />
+                    </div>
+                    <div class="extraContent">
+                        <h1 class="extraTitle">Conference and prize-giving</h1>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="extraItem">
+                    <div class="extraImg">
+                        <img src="images/bottom2.png" />
+                    </div>
+                    <div class="extraContent">
+                        <h1 class="extraTitle">Certificates and prizes</h1>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="extraItem">
+                    <div class="extraImg">
+                        <img src="images/bottom3.jpg" />
+                    </div>
+                    <div class="extraContent">
+                        <h1 class="extraTitle">Jury 2015</h1>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="extraItem">
+                    <div class="extraImg">
+                        <img src="images/bottom4.jpg" />
+                    </div>
+                    <div class="extraContent">
+                        <h1 class="extraTitle">Craft Your Design Without Code</h1>
+                        <a href="#">Official Sponsor</a>
+                    </div>
+                </div>
+            </div>
+            <div id="extraExtra">
+                <div id="extraDiv"></div>
+                <div id="extraText">
+                    THE AW<span style="color:#3c948b">WW</span>ARDS THAT RECOGNIZE THE TALENT AND EFFORT OF THE BEST WEB DESIGNERS IN THE WORLD
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="copyright">
+            <img src="images/logo-www.svg" id="footerLogo">
+            <p>© COPYRIGHT 2010-15</p>
+        </div>
+        <div id="footerMenu">
+            <ul>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">EVALUATION SYSTEM</a></li>
+                <li><a href="#">LEGAL TERMS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">HELP</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
